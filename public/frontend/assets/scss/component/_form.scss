@@ -1,0 +1,111 @@
+.contact-form {
+    .form-control {
+        &:focus {
+            box-shadow: none;
+            border: 1px solid var(--theme-2) !important;
+        }
+    }
+
+    &.style-one {
+        .form-group {
+            .form-control {
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                background: #F1F1F1;
+                padding: 20px 25px;
+            }
+
+            textarea {
+                min-height: 189px;
+                ;
+            }
+        }
+    }
+
+    &.style-two {
+        .form-group {
+            .form-control {
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.10);
+                background: var(--white);
+                padding: 19px 30px;
+                color: #464646;
+                font-family: var(--font-secondary);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 30px;
+
+                @include breakpoint(max-sm) {
+                    margin-bottom: 18px;
+                }
+
+                @include breakpoint(max-xxsmall) {
+                    padding: 10px;
+                }
+            }
+
+            textarea {
+                min-height: 172px;
+                ;
+            }
+        }
+    }
+
+    &.style-three {
+        .form-group {
+            .form-control {
+                border-radius: 90px;
+                border: 1px solid rgba(0, 0, 0, 0.15);
+                background: rgba(255, 255, 255, 0.00);
+                padding: 16px 30px;
+                color: #424242;
+                font-family: var(--font-secondary);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 20px;
+
+                @include breakpoint(max-xs) {
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    line-height: normal;
+                    margin-bottom: 10px;
+                }
+
+                &::placeholder {
+                    color: #424242;
+                }
+            }
+        }
+
+        .forget-pass {
+            color: #424242;
+            font-family: var(--font-secondary);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            text-align: center;
+            display: block;
+            margin-bottom: 35px;
+        }
+
+        .simple-btn {
+            text-align: center;
+
+            .gt-hover-btn {
+                color: var(--white);
+                font-family: var(--font-secondary);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px;
+                text-transform: uppercase;
+                padding: 15px 65px;
+            }
+        }
+    }
+}

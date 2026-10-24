@@ -1,0 +1,123 @@
+.play-store-wrapper {
+    background: var(--theme-4);
+    position: relative;
+    z-index: 2;
+
+    .left-content {
+        margin-right: -33px;
+    }
+
+    .play-store-area-bg-thumb {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+
+        @include breakpoint (max-xxxl) {
+            width: 754px;
+            height: 567px;
+        }
+
+        @include breakpoint (max-xxl) {
+            width: 754px;
+            height: 567px;
+        }
+
+        @include breakpoint (max-xl) {
+            width: 463px;
+            height: 346px;
+        }
+
+        @include breakpoint (max-lg) {
+            display: none;
+        }
+    }
+
+    .play-store-area-bg-thumb-two {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .border-wrap {
+        .line-shape-1 {
+            margin-bottom: 4px;
+        }
+    }
+
+    .meta-title {
+        color: #000;
+        font-family: var(--font-secondary);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 25px;
+
+        @include breakpoint (max-xxsmall) {
+            max-width: 400px;
+        }
+    }
+
+    .mb-40 {
+        @include breakpoint (max-xxs) {
+            margin-bottom: 20px !important;
+        }
+    }
+
+    .mb-35 {
+        @include breakpoint (max-xxs) {
+            margin-bottom: 20px !important;
+        }
+    }
+
+    .store-link {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        @include breakpoint (max-xxsmall) {
+            flex-direction: column;
+        }
+    }
+
+    .store-items {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: var(--black);
+        padding: 15px 24px;
+        border-radius: 10px;
+        width: 219px;
+
+        @include breakpoint (max-xxs) {
+            padding: 13px 14px;
+            width: 200px;
+        }
+
+        @include breakpoint (max-xxsmall) {
+            max-width: 100%;
+        }
+    }
+
+    .content {
+        span {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 150%;
+            color: var(--white);
+            display: inline-block;
+        }
+
+        .name-store {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            color: var(--white);
+            display: inline-block;
+        }
+    }
+}

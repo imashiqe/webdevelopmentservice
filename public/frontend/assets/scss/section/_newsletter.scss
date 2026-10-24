@@ -1,0 +1,181 @@
+.newsletter-wrapper {
+    &.style-five {
+        border-radius: 25px;
+        background: #000;
+        padding-left: 330px;
+        position: relative;
+        z-index: 1;
+
+        @include breakpoint (max-xl2) {
+            padding-left: 150px;
+        }
+
+        @include breakpoint (max-xl2) {
+            padding-left: 40px;
+        }
+
+        @include breakpoint (max-md) {
+            padding-left: 20px;
+        }
+
+        .newsletter-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .title {
+            color: #FFF;
+            font-family: var(--font-secondary);
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 62px;
+            max-width: 573px;
+            margin-bottom: 60px;
+
+            @include breakpoint (max-md) {
+                font-size: 45px;
+            }
+
+            @include breakpoint (max-sm) {
+                font-size: 40px;
+                line-height: normal;
+            }
+
+            @include breakpoint (max-xxs) {
+                font-size: 30px;
+                line-height: normal;
+            }
+
+            @include breakpoint (max-xxsmall) {
+                font-size: 25px;
+                line-height: normal;
+            }
+        }
+
+        .form-group {
+            border-radius: 10px;
+            background: #141414;
+            padding: 30px 200px 30px 30px;
+            width: 572px;
+            position: relative;
+            z-index: 99;
+
+            @include breakpoint (max-md) {
+                width: 535px;
+                padding: 30px 155px 30px 30px;
+            }
+
+            @include breakpoint (max-sm) {
+                width: 460px;
+            }
+
+            @include breakpoint (max-xs) {
+                width: 420px;
+                padding: 10px 128px 10px 10px;
+            }
+
+            @include breakpoint (max-xxs) {
+                width: 400px;
+            }
+
+            @include breakpoint (max-xxsmall) {
+                width: 320px;
+            }
+
+            @include breakpoint (max-xxxsmall) {
+                width: 300px;
+            }
+
+            .form-control {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+                border-radius: 0 !important;
+                padding-bottom: 21px;
+                color: #999;
+                font-family: var(--font-secondary);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+
+                &:focus {
+                    border-bottom: 1px solid var(--theme-4);
+                    box-shadow: none;
+                }
+
+                &::placeholder {
+                    color: #999;
+                }
+            }
+
+            .submit-btn {
+                color: #000;
+                font-family: var(--font-secondary);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+                border-radius: 65px;
+                background: #C4F112;
+                padding: 15px 35px;
+                position: absolute;
+                right: 30px;
+                top: 50%;
+                transform: translateY(-65%);
+
+                @include breakpoint (max-sm) {
+                    padding: 8px 15px
+                }
+
+                @include breakpoint (max-sm) {
+                    font-size: 14px;
+                    right: 10px;
+                }
+            }
+        }
+
+        .slider-one {
+            position: absolute;
+            top: -140px;
+            right: 380px;
+            transform: rotate(30deg);
+            z-index: -1;
+
+            @include breakpoint (max-xxxl) {
+                top: -47px;
+            }
+
+            @include breakpoint (max-lg) {
+                display: none;
+            }
+
+        }
+
+        .slider-two {
+            position: absolute;
+            top: -140px;
+            right: 0px;
+            transform: rotate(30deg);
+            z-index: -1;
+
+            @include breakpoint (max-xxxl) {
+                top: -47px;
+            }
+        }
+
+        .newsletter-slider-five,
+        .newsletter-slider-five-two {
+            height: 885px;
+        }
+
+        .newsletter-slider-five .swiper-slide,
+        .newsletter-slider-five-two .swiper-slide {
+            height: auto;
+        }
+    }
+}

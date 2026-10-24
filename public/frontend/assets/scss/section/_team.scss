@@ -1,0 +1,119 @@
+.team-wrapper {
+    &.style-three {
+        .left-content {
+            position: relative;
+
+            .shape {
+                position: absolute;
+                bottom: -100px;
+                right: 200px;
+
+                @include breakpoint (max-xl) {
+                    right: 0;
+                }
+            }
+        }
+
+        .section-top-content {
+            .title {
+                max-width: 729px;
+            }
+        }
+
+        .team-card {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            isolation: isolate;
+            background: var(--gray4);
+
+            .thumb {
+                img {
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;
+                    transition: transform 0.45s ease, filter 0.45s ease;
+
+                    @include breakpoint (max-sm) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(180deg, rgba(14, 14, 14, 0) 55%, rgba(14, 14, 14, 0.5) 100%);
+                opacity: 0;
+                transition: opacity 0.45s ease;
+                pointer-events: none;
+            }
+
+            .member-content {
+                position: absolute;
+                left: 30px;
+                right: 30px;
+                bottom: 37px;
+                z-index: 2;
+                background: var(--white);
+                border-radius: 12px;
+                padding: 12px 30px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                transform: translateY(18px);
+                opacity: 0;
+                transition: transform 0.45s ease, opacity 0.45s ease;
+
+                @include breakpoint (max-xl) {
+                    padding: 12px;
+                }
+
+                .name {
+                    font-family: var(--font-primary);
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 142%;
+                    color: var(--black);
+
+                    @include breakpoint (max-xxl) {
+                        font-size: 14px;
+                    }
+                }
+
+                .role {
+                    font-family: var(--second-family);
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 125%;
+                    text-transform: uppercase;
+                    color: var(--pra-text);
+
+                    @include breakpoint (max-xl) {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            &:hover,
+            &.is-hover {
+                .thumb {
+                    img {
+                        transform: scale(1.04);
+                        filter: blur(20px);
+                    }
+                }
+
+                &::after {
+                    opacity: 1;
+                }
+
+                .member-content {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

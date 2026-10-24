@@ -1,0 +1,72 @@
+.how-it-works-wrapper {
+    &.style-one {
+        background: var(--bg-color-2);
+        position: relative;
+        overflow: hidden;
+
+        .shape-1 {
+            position: absolute;
+            top: -299px;
+            right: -299px;
+            z-index: 1;
+        }
+
+        .section-top-content {
+            position: relative;
+            z-index: 9;
+
+            .sub-title {
+                border: none;
+                padding: 0;
+                margin-bottom: 30px;
+            }
+
+            .title {
+                max-width: 897px;
+            }
+        }
+    }
+
+    &.style-four {
+        background: var(--black);
+        position: relative;
+        z-index: 1;
+
+        .animation-shape {
+            position: absolute;
+            left: 75px;
+            top: 75px;
+            z-index: -1;
+
+            @include breakpoint (max-xl2) {
+                top: 10px;
+            }
+
+            @include breakpoint (max-lg) {
+                display: none;
+            }
+        }
+
+        .thumb {
+            margin-right: -320px;
+            position: relative;
+
+            @include breakpoint (max-lg) {
+                margin-right: 0;
+            }
+
+            .thumb-content {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+
+                @include breakpoint (max-sm) {
+                    svg{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

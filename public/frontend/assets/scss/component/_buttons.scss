@@ -1,0 +1,522 @@
+/*----------------------------------------------
+    # Buttons style here
+----------------------------------------------*/
+
+
+.simple-btn {
+    .gt-btn-circle-2 {
+        position: relative;
+        display: inline-block;
+        color: var(--white);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.16px;
+        text-transform: uppercase;
+        z-index: 1;
+        border: 0;
+        background: var(--black);
+        border: 1px solid var(--white);
+        border-radius: 100px;
+        padding: 15px 20px;
+        overflow: hidden;
+
+        &.style-two {
+            border: 0;
+            border-radius: 15px;
+            padding: 15px 35px;
+            background: var(--theme);
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 163%;
+            text-transform: uppercase;
+            color: var(--white);
+
+            .gt-btn-circle-dot {
+                background-color: var(--black);
+                z-index: 1;
+            }
+
+            .gt-btn-circle-text-2 {
+                position: relative;
+                z-index: 2;
+            }
+
+            &:hover {
+                background: var(--black) !important;
+                border-color: transparent;
+                box-shadow: none;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 163%;
+                text-transform: uppercase;
+                color: var(--white) !important;
+
+                .gt-btn-circle-dot {
+                    width: 520px;
+                    height: 520px;
+                }
+            }
+        }
+
+        &.style-three {
+            border: 1px solid rgba(14, 14, 14, 0.1);
+            background: var(--white);
+            color: var(--black);
+
+            .gt-btn-circle-dot {
+                background-color: var(--theme);
+            }
+
+            &:hover {
+                background: var(--theme) !important;
+                color: var(--white) !important;
+                border-color: transparent;
+            }
+        }
+
+        &.style-four {
+            border: 0;
+            border-radius: 999px;
+            padding: 20px 35px;
+            background: var(--theme-3);
+            color: var(--black);
+            font-family: var(--second-family);
+            font-weight: 700;
+
+            .text {
+                font-size: 16px;
+                line-height: 163%;
+                text-transform: uppercase;
+                color: inherit;
+                @include transition;
+            }
+
+            .gt-btn-circle-dot {
+                background-color: var(--black);
+                z-index: 1;
+            }
+
+            .gt-btn-circle-text-2 {
+                position: relative;
+                z-index: 2;
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                white-space: nowrap;
+            }
+
+            .style-four-dot {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: var(--black);
+                flex: 0 0 10px;
+                @include transition;
+            }
+
+            &:hover {
+                background: var(--black) !important;
+                color: var(--white) !important;
+                border-color: transparent;
+
+                .style-four-dot {
+                    background: var(--white);
+                }
+
+                .gt-btn-circle-dot {
+                    width: 620px;
+                    height: 620px;
+                }
+            }
+        }
+
+        &.no-round {
+            border-radius: 6px;
+            border: none;
+            color: var(--white);
+            font-family: var(--second-family);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            text-transform: uppercase;
+            display: inline-flex;
+            height: 66px;
+            padding: 17px 35px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        &.style-five {
+            background: var(--black);
+        }
+
+        &:hover {
+            color: var(--white) !important;
+            background: var(--theme) !important;
+
+            .gt-btn-circle-dot {
+                width: 350px;
+                height: 350px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: -30px;
+            width: 30px;
+            height: 30px;
+            background-color: var(--theme);
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: var(--white) !important;
+            }
+        }
+    }
+}
+
+.gt-hover-btn-wrapper {
+    display: inline-block;
+
+    .gt-btn-circle-2 {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 50%;
+        color: var(--theme-5);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.14px;
+        text-transform: uppercase;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        z-index: 1;
+        width: 116px;
+        height: 116px;
+        border: 0;
+        background: var(--white);
+
+        @include breakpoint(max-md) {
+            width: 90px;
+            height: 90px;
+        }
+
+        @include breakpoint(max-xs) {
+            width: 80px;
+            height: 80px;
+        }
+
+        &:hover {
+            color: var(--theme-5) !important;
+
+            .gt-btn-circle-dot {
+                width: 320px;
+                height: 320px;
+            }
+
+            &.bg-2 {
+                border: 1px solid var(--theme-2);
+                background: var(--theme-2) !important;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: var(--theme);
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+
+            &.bg-2 {
+                background-color: var(--theme-2);
+            }
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: var(--theme-5) !important;
+            }
+        }
+    }
+}
+
+.card-btn {
+    position: relative;
+    z-index: 2;
+    border-radius: 45px;
+    border-top: 1px solid var(--theme-5);
+    border-left: 1px solid var(--theme-5);
+    border-bottom: 1px solid var(--theme-5);
+    background: rgba(217, 217, 217, 0.00);
+    display: inline-block;
+
+    @include transition;
+
+    a {
+        color: var(--theme-5);
+        font-family: var(--font-body);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        padding: 8px 74px 8px 30px;
+        position: relative;
+        display: inline-block;
+        @include transition;
+    }
+
+    .btn-cir {
+        border-radius: 45px;
+        border: 1px solid var(--theme-5);
+        background: rgba(217, 217, 217, 0.00);
+        width: 44px;
+        height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        @include transition;
+
+        span {
+            width: 10px;
+            height: 10px;
+            background: var(--theme-5);
+            border-radius: 100%;
+            display: inline-block;
+            @include transition;
+        }
+    }
+
+    &:hover {
+        border-top: 1px solid var(--theme);
+        border-left: 1px solid var(--theme);
+        border-bottom: 1px solid var(--theme);
+
+        .btn-cir {
+            border: 1px solid var(--theme);
+
+            span {
+                background: var(--theme);
+            }
+        }
+    }
+}
+
+.arrow-big-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+    flex-shrink: 0;
+    text-decoration: none;
+    overflow: visible;
+    color: var(--black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    &.arrow-big-btn-two {
+
+        .arrow-big-btn-arrow,
+        .arrow-big-btn-pill {
+            background: var(--white) !important;
+        }
+    }
+
+    &:hover {
+        .arrow-big-btn-arrow.arrow-big-btn-arrow-left {
+            width: 66px;
+            flex-basis: 66px;
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+        }
+
+        .arrow-big-btn-arrow.arrow-big-btn-arrow-right {
+            width: 0;
+            flex-basis: 0;
+            margin-left: 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: scale(0.85);
+        }
+    }
+
+    .arrow-big-btn-pill,
+    .arrow-big-btn-arrow {
+        background: #ff9d00 !important;
+        color: var(--black);
+        transition: all 0.3s ease;
+    }
+
+    .arrow-big-btn-pill {
+        border-radius: 999px;
+        padding: 17px 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-secondary);
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+
+    .arrow-big-btn-arrow {
+        width: 66px;
+        height: 66px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        flex-shrink: 0;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        i {
+            display: inline-block;
+            will-change: transform;
+        }
+
+        &.arrow-big-btn-arrow-left {
+            width: 0;
+            flex-basis: 0;
+            margin-right: 0;
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+            transform: scale(0.85);
+            transition: width 0.35s ease, flex-basis 0.35s ease, margin-right 0.35s ease, opacity 0.25s ease, visibility 0.25s ease, transform 0.35s ease;
+        }
+
+        &.arrow-big-btn-arrow-right {
+            width: 66px;
+            flex-basis: 66px;
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+            transition: width 0.35s ease, flex-basis 0.35s ease, margin-left 0.35s ease, opacity 0.25s ease, visibility 0.25s ease, transform 0.35s ease;
+        }
+    }
+}
+
+.gt-hover-btn-wrapper {
+    display: inline-block;
+
+    .gt-btn-circle-2 {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 50%;
+        color: var(--white);
+        font-family: var(--font-secondary);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: transparent !important;
+        z-index: 1;
+        width: 255px;
+        height: 255px;
+        border: 0;
+
+        @include breakpoint(max-md) {
+            width: 90px;
+            height: 90px;
+        }
+
+        @include breakpoint(max-xs) {
+            width: 80px;
+            height: 80px;
+        }
+
+        span {
+            @include breakpoint (max-md) {
+                font-size: 12px !important;
+            }
+        }
+
+        &:hover {
+            color: var(--black) !important;
+
+            .gt-btn-circle-dot {
+                width: 520px;
+                height: 520px;
+            }
+        }
+
+        .gt-btn-circle-dot {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            background-color: var(--theme-4);
+            line-height: 20px;
+            border-radius: 50%;
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -ms-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .gt-btn-circle-text-2 {
+            display: block;
+
+            &:hover {
+                color: var(--theme-4) !important;
+            }
+        }
+    }
+}

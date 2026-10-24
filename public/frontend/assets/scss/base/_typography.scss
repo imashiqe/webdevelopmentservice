@@ -1,0 +1,171 @@
+/* --------------------------------------------
+    Template Default Fonts & Fonts Styles
+ ---------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Outfit:wght@100..900&family=Phudu:wght@300..900&display=swap');
+
+
+
+body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+    color: var(--text-color);
+    background-color: var(--white);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+input:focus {
+    color: var(--text-color);
+    outline: none;
+}
+
+input {
+    &::placeholder {
+        color: #767771;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-primary);
+    margin: 0px;
+    padding: 0;
+    color: var(--theme-5);
+    @include transition;
+
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 130px;
+}
+
+h2 {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 110px;
+}
+
+h3 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+h4 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+h5 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+h6 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+h2 a {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 110px;
+    display: inline-block;
+
+    @include breakpoint(max-md) {
+        font-size: 45px !important;
+    }
+
+    @include breakpoint(max-sm) {
+        font-size: 28px !important;
+    }
+}
+
+h3 a {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    display: inline-block;
+
+    @include breakpoint(max-md) {
+        font-size: 16px;
+    }
+}
+
+h4 a {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62px;
+    display: inline-block;
+}
+
+h5 a {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    display: inline-block;
+}
+
+h6 a {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+    cursor: pointer;
+    color: var(--black);
+    @include transition;
+    
+    &:hover {
+        color: var(--orange) !important;
+    }
+}
+
+p {
+    margin: 0px;
+    @include transition;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+span {
+    margin: 0px;
+    @include transition;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+span a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}

@@ -1,0 +1,266 @@
+/*----------------------------------------------
+    # Faq style here
+----------------------------------------------*/
+
+.faq-area {
+  .faq-wrapper {
+    .faq-title {
+
+      .title {
+        color: var(--theme-5);
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        font-family: var(--font-primary);
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 62px;
+        text-transform: uppercase;
+
+        @include breakpoint(max-xxxl) {
+          font-size: 40px;
+          line-height: normal;
+        }
+
+        @include breakpoint(max-md) {
+          font-size: 28px;
+          margin-bottom: 30px;
+        }
+
+        @include breakpoint(max-sm) {
+          font-size: 24px;
+        }
+
+        @include breakpoint(max-xxxsmall) {
+          font-size: 18px;
+        }
+      }
+
+      .title-bottom-content {
+        margin-left: 424px;
+
+        @include breakpoint(max-lg) {
+          margin-left: 0;
+        }
+
+        .text {
+          max-width: 450px;
+          margin-bottom: 35px;
+          color: #464646;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+.accordion {
+  &.style1 {
+    .accordion-item .accordion-header button:after {
+      display: none;
+    }
+
+    .accordion-item .accordion-button[aria-expanded="false"]::before {
+      content: "\f061";
+      font-family: "Font Awesome 6 pro";
+      right: 0;
+      position: absolute;
+      font-size: 20px;
+      color: var(var(--title-color));
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .accordion-item .accordion-button[aria-expanded="true"]::before {
+      content: "\f061";
+      font-family: "Font Awesome 6 pro";
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      right: 10px;
+      position: absolute;
+      font-size: 20px;
+    }
+
+    .accordion-item {
+      margin-bottom: 12px;
+      background: transparent;
+      border-bottom: 1px dotted;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .accordion-button:focus {
+        z-index: 3;
+        outline: 0;
+        box-shadow: none;
+      }
+
+      button {
+        gap: 54px;
+        color: var(--theme-5);
+        font-family: Outfit;
+        font-size: 26px !important;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 34px;
+        padding: 0 0 30px 0;
+        margin-top: 30px;
+        padding-right: 20px;
+
+        @include breakpoint(max-md) {
+          font-size: 20px !important;
+          line-height: normal;
+          gap: 10px;
+        }
+
+        @include breakpoint(max-xs) {
+          font-size: 18px !important;
+          line-height: normal;
+          padding: 0 30px 15px 0;
+        }
+
+        span {
+          color: var(--theme-5);
+          font-family: Outfit;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 28px;
+        }
+
+        &:not(.collapsed) {
+          color: inherit !important;
+          background-color: transparent !important;
+          box-shadow: none !important;
+          border: none;
+
+          .icon-box {
+            background-color: var(--theme);
+          }
+        }
+
+        .accordion-button {
+          &.collapsed {
+            background: var(--white);
+
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .accordion-body {
+        padding: 0px 0 30px 95px;
+        max-width: 1004px;
+
+        @include breakpoint(max-xs) {
+          padding: 0px 0 30px 0;
+        }
+      }
+
+      .accordion-collapse {
+        .accordion-body {
+          p {
+            color: var(--pra-text);
+            font-family: Outfit;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+          }
+        }
+      }
+    }
+  }
+
+  &.style2 {
+    .accordion-item {
+      margin-bottom: 25px;
+      background: transparent;
+      border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
+      padding-bottom: 25px;
+
+      @include breakpoint (max-sm) {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .accordion-button {
+        position: relative;
+        gap: 20px;
+        background: transparent !important;
+        border: none;
+        margin-left: 46px;
+        padding: 0;
+        font-family: var(--font-secondary);
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 100%;
+        color: var(--white);
+        box-shadow: none;
+
+        @include breakpoint (max-md) {
+          font-size: 42px;
+        }
+
+        @include breakpoint (max-xxs) {
+          font-size: 26px;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+
+        &::after {
+          display: none;
+        }
+
+        &[aria-expanded="false"]::before {
+          content: "\002b";
+          position: absolute;
+          left: -40px;
+          font-size: 40px;
+          color: var(--white);
+        }
+
+        &[aria-expanded="true"]::before {
+          content: "\2212";
+          position: absolute;
+          left: -40px;
+          font-size: 40px;
+          color: var(--theme);
+        }
+      }
+
+      .accordion-button:not(.collapsed) {
+        color: var(--theme);
+      }
+
+      .accordion-collapse {
+        .accordion-body {
+          padding: 25px 0 0 46px;
+          font-size: 18px;
+          line-height: 156%;
+          color: var(--gray2);
+
+          @include breakpoint (max-md) {
+            padding: 25px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}

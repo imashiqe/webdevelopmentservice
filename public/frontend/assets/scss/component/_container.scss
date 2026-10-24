@@ -1,0 +1,88 @@
+/*----------------------------------------------
+    # Container  style here
+----------------------------------------------*/
+@media (min-width:1400px) { 
+    .causes-wrapper{
+        &.style1{
+            .container{
+                max-width: 1352px;
+            }
+        }
+    }
+
+}
+@media (min-width:1400px) { 
+    .about-wrapper{
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+
+@media (min-width:1400px) { 
+    .service-wrapper{
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+
+@media (min-width:1400px) { 
+    .brand-wrapper{
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+@media (min-width:1400px) { 
+    .wcu-wrapper{
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+@media (min-width:1400px) { 
+    .faq-wrapper{
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+@media (min-width:1400px) { 
+    .blog-wrapper{
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+@media (min-width:1400px) { 
+    .footer-wrapper {
+        &.style-five{
+            .container{
+                max-width: 1601px;
+            }
+        }
+    }
+}
+
+@media (min-width:1600px) { 
+    .footer-widgets-wrapper{
+        &.style1{
+            .container{
+                max-width: 1338px;
+            }
+        }
+    }
+}

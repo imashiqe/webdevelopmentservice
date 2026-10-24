@@ -1,0 +1,406 @@
+.auth-wrapper {
+    min-height: 100vh;
+    height: auto;
+
+    >.row {
+        display: flex;
+        align-items: stretch;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    >.row>.col-xl-5,
+    >.row>.col-xl-7 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    // Left Image
+    >.row>.col-xl-5 {
+        padding-left: 0;
+        padding-right: 0;
+
+        .thumb {
+            width: 100%;
+            height: 100%;
+            flex: 1 1 auto;
+            display: flex;
+            margin-right: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+
+                @include breakpoint (max-xl) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    >.row>.col-xl-7 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .auth-header {
+        margin: 0 208px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+
+        a.index-link {
+            color: var(--black);
+            font-family: var(--font-secondary);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 26px;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-skip-ink: auto;
+            text-decoration-thickness: auto;
+            text-underline-offset: auto;
+            text-underline-position: from-font;
+        }
+    }
+
+    .contact-form {
+        margin: 0 208px;
+        margin-top: 181px;
+
+        @include breakpoint(max-xl4) {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        @include breakpoint(max-xxl) {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+
+        // &.style-three {
+        //     @include breakpoint(max-xxxl) {
+        //         margin-top: 60px;
+        //     }
+
+        // }
+
+        .auth-section-heading {
+            margin-bottom: 35px;
+
+            @include breakpoint(max-xs) {
+                margin-bottom: 20px;
+            }
+
+            .title {
+                color: var(--black);
+                font-family: var(--font-secondary);
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 70px;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+                text-align: center;
+
+                @include breakpoint(max-xs) {
+                    font-size: 40px;
+                    margin-bottom: 20px;
+                    line-height: normal;
+                }
+            }
+
+            .text {
+                color: #6D6D6D;
+                text-align: center;
+                font-family: var(--font-secondary);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                max-width: 620px;
+                margin: 0 auto;
+
+                @include breakpoint(max-xs) {
+                    font-size: 14px;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    .auth-footer {
+        margin-top: 181px;
+        text-align: center;
+        margin-bottom: 40px;
+
+        @include breakpoint(max-xl4) {
+            margin-top: 50px;
+        }
+
+        @include breakpoint(max-xl3) {
+            margin-top: 30px;
+        }
+
+        @include breakpoint(max-xs) {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            color: #424242;
+            text-align: center;
+            font-family: var(--font-secondary);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .switch-btn {
+            color: var(--black);
+            font-family: var(--font-secondary);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-skip-ink: auto;
+            text-decoration-thickness: auto;
+            text-underline-offset: auto;
+            text-underline-position: from-font;
+        }
+    }
+
+    .partition-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+        @include breakpoint(max-xl2) {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+    .partition-hr {
+        color: var(--black);
+        font-family: var(--font-secondary);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px 13px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        background: #F9F9F9;
+        position: relative;
+        z-index: 1;
+        isolation: isolate;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 736px;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.15);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+
+            @include breakpoint(max-xxl) {
+                width: 530px;
+            }
+
+            @include breakpoint(max-xl) {
+                width: 390px;
+            }
+
+            @include breakpoint(max-sm) {
+                min-width: 100%;
+            }
+        }
+    }
+
+    .auto-auth-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 26px;
+
+        @include breakpoint(max-xs) {
+            gap: 10px;
+        }
+
+        button {
+            border-radius: 90px;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            background: rgba(255, 255, 255, 0);
+            width: 50%;
+            padding: 16px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: center;
+
+            @include breakpoint(max-xs) {
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    &.style-two {
+
+        .auth-footer,
+        .contact-form {
+            margin-top: 85px;
+
+            @include breakpoint(max-xl4) {
+                margin-top: 50px;
+            }
+
+            @include breakpoint(max-xl3) {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    // --------------------------------
+    // Responsive
+    // --------------------------------
+
+    @include breakpoint(max-xl) {
+        min-height: auto;
+
+        >.row {
+            display: block;
+        }
+
+        >.row>.col-xl-5,
+        >.row>.col-xl-7 {
+            display: block;
+        }
+
+        >.row>.col-xl-5 {
+            .thumb {
+                height: auto;
+                margin-right: 0;
+                display: block;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .auth-header {
+            margin: 0 50px;
+        }
+
+        .contact-form {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        .auth-footer {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
+
+    @include breakpoint(max-lg) {
+        .contact-form {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+
+    @include breakpoint(max-md) {
+        .auth-header {
+            margin: 0 25px;
+            padding-top: 20px;
+        }
+
+
+        .auth-footer {
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+        .auth-section-heading {
+            .title {
+                font-size: 45px;
+                line-height: 55px;
+            }
+
+            .text {
+                font-size: 16px;
+                line-height: 25px;
+            }
+        }
+
+        .auto-auth-wrap {
+            flex-direction: column;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    @include breakpoint(max-sm) {
+        .auth-header {
+            margin: 0 15px;
+
+            .logo {
+                img {
+                    max-width: 130px;
+                }
+            }
+
+            a.index-link {
+                font-size: 15px;
+                line-height: 22px;
+            }
+        }
+
+        .contact-form {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .auth-footer {
+            margin-left: 15px;
+            margin-right: 15px;
+
+            &.style-three {
+                @include breakpoint(max-xs) {
+                    margin-top: 65px;
+                    margin-bottom: 65px;
+                }
+            }
+        }
+
+        .auth-section-heading {
+            .title {
+                font-size: 36px;
+                line-height: 45px;
+            }
+        }
+    }
+}

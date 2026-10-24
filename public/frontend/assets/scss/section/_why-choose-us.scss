@@ -1,0 +1,272 @@
+.why-choose-us-wrapper {
+    position: relative;
+
+    .section-top-content {
+        .title {
+            max-width: 794px;
+        }
+
+        .sub-title {
+            border-bottom: none;
+        }
+    }
+
+    .shape-content {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+
+        img {
+            @include breakpoint (max-lg) {
+                display: none;
+            }
+        }
+    }
+
+    .thumb {
+        margin-left: -15px;
+
+        @include breakpoint (max-lg) {
+            display: none;
+        }
+    }
+
+    .right-content {
+        margin-left: 60px;
+
+        @include breakpoint (max-xl) {
+            margin-left: 0;
+        }
+
+        .items-wrap {
+            .item {
+                display: flex;
+                gap: 25px;
+                border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+                margin-bottom: 25px;
+                padding-bottom: 25px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+
+                &:first-child {
+                    border-top: 1px solid rgba(14, 14, 14, 0.1);
+                    padding-top: 25px;
+                }
+
+                .icon {
+                    width: 80px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @include breakpoint (max-xxsmall) {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+
+                .content {
+                    h3 {
+                        font-family: var(--font-secondary);
+                        font-weight: 500;
+                        font-size: 36px;
+                        line-height: 128%;
+                        color: var(--theme-5);
+                        margin-bottom: 20px;
+
+                        @include breakpoint (max-md) {
+                            font-size: 26px;
+                        }
+
+                        @include breakpoint (max-xxsmall) {
+                            font-size: 18px;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    p {
+                        font-family: var(--second-family);
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 156%;
+                        color: var(--pra-text);
+
+                        @include breakpoint (max-xxsmall) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.why-choose-us-wave {
+    .right-content {
+        .items-wrap {
+            .item {
+                .icon {
+                    svg {
+                        path {
+                            animation: wcuPathWave 2.6s ease-in-out infinite;
+                            will-change: opacity;
+                        }
+
+                        path:nth-child(2n) {
+                            animation-delay: 0.2s;
+                        }
+
+                        path:nth-child(3n) {
+                            animation-delay: 0.4s;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    .icon {
+                        svg path {
+                            animation-delay: 0.3s;
+                        }
+                    }
+                }
+
+                &:nth-child(3) {
+                    .icon {
+                        svg path {
+                            animation-delay: 0.55s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wcu-wrapper {
+    &.style-five {
+        background: #F1F1F1;
+
+        .left-content {
+            margin-right: -60px;
+
+            @include breakpoint (max-xxxl) {
+                margin: 0;
+            }
+
+            @include breakpoint (max-lg) {
+                display: flex;
+                align-items: stretch;
+                gap: 10px;
+            }
+
+            @include breakpoint (max-sm) {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .counter-items {
+                flex: 1;
+                height: 100%;
+            }
+        }
+
+        .counter-title {
+
+            @include breakpoint (max-md) {
+                font-size: 15px;
+                line-height: normal;
+            }
+        }
+
+        .thumb {
+            text-align: center;
+
+            @include breakpoint (max-lg) {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .right-content {
+            margin-left: -60px;
+
+            @include breakpoint (max-xxxl) {
+                margin: 0;
+            }
+
+            .content-items {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+
+                @include breakpoint (max-xxxl) {
+                    padding-bottom: 10px;
+                    margin-bottom: 10px;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                    border: none;
+                }
+
+                .right-title {
+                    color: var(--black);
+                    font-family: var(--font-secondary);
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 40px;
+                    margin-bottom: 20px;
+
+                    @include breakpoint (max-xxs) {
+                        margin-bottom: 5px;
+                    }
+                }
+
+                P {
+                    color: #464646;
+                    font-family: var(--font-secondary);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+
+                    @include breakpoint (max-xxs) {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes wcuPathWave {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0.55;
+    }
+
+    75% {
+        opacity: 0.85;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .why-choose-us-wave .right-content .items-wrap .item .icon svg path {
+        animation: none;
+    }
+}

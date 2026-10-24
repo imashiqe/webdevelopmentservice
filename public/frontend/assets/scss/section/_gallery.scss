@@ -1,0 +1,60 @@
+.gallery-area {
+    @include breakpoint(max-lg) {
+        display: none;
+    }
+}
+
+.gallery-wrapper {
+    position: relative;
+    overflow: visible;
+
+    &.fix {
+        overflow: visible;
+    }
+
+    .gallery-thumb {
+        border-radius: 35px;
+
+        img {
+            border-radius: 35px;
+        }
+
+        &.style-four {
+            border-radius: 0 0 45px 45px;
+
+            img {
+                border-radius: 0 0 45px 45px;
+            }
+        }
+    }
+
+    .circle-wrapper {
+        &.circle-two {
+            position: absolute;
+            top: -83px !important;
+            right: 75px !important;
+            left: auto !important;
+            z-index: 99;
+            border: none;
+            box-shadow: none;
+
+            &::before,
+            &::after {
+                display: none;
+            }
+
+            .circle-text {
+                animation: cir36 20s linear infinite;
+                -webkit-animation: cir36 20s linear infinite;
+            }
+
+            .circle-image {
+                svg {
+                    path {
+                        fill: var(--black);
+                    }
+                }
+            }
+        }
+    }
+}

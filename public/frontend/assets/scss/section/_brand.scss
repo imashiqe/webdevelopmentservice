@@ -1,0 +1,335 @@
+.brand-wrapper {
+
+    &.style-one {
+        .brand-title {
+            .title {
+                color: var(--theme-5);
+                text-transform: uppercase;
+                margin-bottom: 60px;
+                font-family: var(--font-primary);
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 62px;
+
+                @include breakpoint(max-xxxl) {
+                    font-size: 40px;
+                    line-height: normal;
+                }
+
+                @include breakpoint(max-md) {
+                    font-size: 28px;
+                    margin-bottom: 30px;
+                }
+
+                @include breakpoint(max-sm) {
+                    font-size: 24px;
+                }
+
+                @include breakpoint(max-xxxsmall) {
+                    font-size: 18px;
+                }
+            }
+
+            .title-bottom-content {
+                margin-left: 424px;
+
+                @include breakpoint(max-lg) {
+                    margin-left: 0;
+                }
+
+                .text {
+                    max-width: 450px;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+
+        .brand-logo-wrap {
+            margin: 0 78px;
+
+            @include breakpoint(max-lg) {
+                margin: 0 20px;
+            }
+
+            .brand-logo-items {
+                width: 1772px;
+
+                @include breakpoint(max-xl) {
+                    width: 100%;
+                }
+
+                .logo-card {
+                    box-sizing: border-box;
+                    border: 1px solid rgba(23, 23, 23, 0.1);
+                    border-radius: 10px 10px 0px 0px;
+                    background: rgba(255, 255, 255, 1);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 240px;
+                    width: 100%;
+
+                    @include breakpoint(max-lg) {
+                        border-radius: 10px;
+                    }
+                }
+
+                .logo-card-2 {
+                    box-sizing: border-box;
+                    border: 1px solid rgba(23, 23, 23, 0.1);
+                    border-radius: 0px 0px 10px 10px;
+                    background: rgba(255, 255, 255, 1);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    height: 240px;
+                    width: 100%;
+
+                    @include breakpoint(max-lg) {
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    &.style-three {
+        background: var(--bg-color-3);
+
+        .border-title {
+            margin-bottom: 60px;
+        }
+
+        .scrolling-wrap {
+            background: transparent;
+
+            .comm {
+
+                .cmn-textslide-1 {
+                    background-color: var(--white);
+                }
+
+                .cmn-textslide-2 {
+                    background-color: var(--white);
+                }
+            }
+
+            &.style2 {
+                .comm {
+
+                    .cmn-textslide-1 {
+                        background-color: var(--white) !important;
+                    }
+
+                    .cmn-textslide-2 {
+                        background-color: var(--white) !important;
+                    }
+                }
+            }
+        }
+    }
+
+    &.style-four {
+        background: var(--black);
+        border-radius: 0 0 45px 45px;
+        position: relative;
+        z-index: 1;
+
+        @include breakpoint(max-md) {
+            border-radius: 0 0 15px 15px;
+        }
+
+        .cir {
+            position: absolute;
+            right: -50px;
+            bottom: -50px;
+            z-index: -1;
+
+            @include breakpoint(max-md) {
+                display: none;
+            }
+        }
+
+        .between-content {
+            .title {
+                max-width: 546px;
+
+                @include breakpoint (max-xl) {
+                    max-width: 100%;
+                }
+            }
+
+            .right-title {
+                p {
+                    @include breakpoint (max-xl) {
+                        max-width: 80%;
+                    }
+
+                    @include breakpoint(max-md) {
+                        max-width: 100%;
+                        font-size: 16px;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        .section-top-content.style-four.between-content {
+            @include breakpoint (max-xl) {
+                flex-direction: column;
+                align-items: start;
+                gap: 20px;
+            }
+        }
+
+        .brand-card-wrap {
+            display: grid;
+            grid-template-columns: repeat(5, 240px);
+            gap: 24px;
+            justify-content: center;
+
+            @include breakpoint (max-xxl) {
+                grid-template-columns: repeat(5, 200px);
+            }
+
+            @include breakpoint (max-xl) {
+                grid-template-columns: repeat(5, 150px);
+            }
+
+            @include breakpoint (max-lg) {
+                grid-template-columns: repeat(5, 120px);
+            }
+
+            @include breakpoint (max-md) {
+                grid-template-columns: repeat(4, 110px);
+            }
+
+            @include breakpoint (max-sm) {
+                grid-template-columns: repeat(3, 130px);
+            }
+
+            @include breakpoint (max-xs) {
+                grid-template-columns: repeat(3, 120px);
+            }
+
+            @include breakpoint (max-xxs) {
+                grid-template-columns: repeat(2, 120px);
+            }
+
+            .brand-card-shape {
+                grid-column: span 2;
+                width: 100%;
+                height: auto;
+            }
+
+            .brand-card {
+                width: 240px;
+                height: 220px;
+                background: var(--white);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+
+                @include breakpoint (max-xxl) {
+                    width: 200px;
+                    height: 200px;
+                }
+
+                @include breakpoint (max-xl) {
+                    width: 150px;
+                    height: 150px;
+                }
+
+                @include breakpoint (max-lg) {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+        }
+    }
+
+    &.style-five {
+        background: var(--theme-4);
+
+        .brand-title {
+            color: var(--black);
+            text-align: center;
+            font-family: var(--font-secondary);
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 62px;
+            max-width: 931px;
+            margin: 0 auto;
+            margin-bottom: 70px;
+
+            @include breakpoint(max-xxxl) {
+                font-size: 40px;
+                line-height: normal;
+            }
+
+            @include breakpoint(max-md) {
+                font-size: 28px;
+                margin-bottom: 30px;
+            }
+
+            @include breakpoint(max-sm) {
+                font-size: 24px;
+            }
+
+            @include breakpoint(max-xxxsmall) {
+                font-size: 18px;
+            }
+        }
+
+        .custom-mb {
+            @include breakpoint(max-lg) {
+                margin-bottom: 20px;
+            }
+        }
+
+        .brand-logo-wrap {
+            margin: 0 78px;
+
+            @include breakpoint(max-xl) {
+                margin: 0;
+            }
+        }
+
+        .logo-card,
+        .logo-card-2 {
+            background: transparent !important;
+            height: 170px !important;
+            border: 1px solid #000 !important;
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.10) !important;
+        }
+    }
+
+    &.style-page {
+        .scrolling-wrap.style2 {
+            .cmn-textslide-1 {
+                background: #fff !important;
+            }
+
+            .cmn-textslide-2 {
+                background: #fff !important;
+            }
+        }
+    }
+
+    &.brand-wrapper {
+        .scrolling-wrap {
+            background: transparent;
+            padding: 0;
+
+            .cmn-textslide-1,
+            .cmn-textslide-2 {
+                background: #FFF;
+            }
+        }
+    }
+}
