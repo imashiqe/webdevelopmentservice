@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="mugli">
-    <meta name="description" content="Befox AI Agency & Technology">
+    <meta name="author" content="Web Development Service USA">
+    <meta name="description" content="Web Development Service USA provides professional website development, e-commerce solutions, custom web applications, and SEO services for businesses.">
     <!-- ======== Page title ============ -->
     <title>Web Development Service USA</title>
     <!--<< Favcion >>-->
@@ -117,9 +117,7 @@
                         </div>
                     </div>
                     <p class="text d-none d-xl-block">
-                        Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                        sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
-                        a imperdiet risus.
+                        Web Development Service USA helps businesses grow with professional websites, e-commerce solutions, custom web applications, and reliable website support.
                     </p>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
@@ -130,7 +128,7 @@
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
+                                    <a target="_blank" href="#">Serving businesses across the United States</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -138,8 +136,8 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="mailto:hello@webdevelopmentserviceusa.com"><span
+                                            class="mailto:hello@webdevelopmentserviceusa.com">hello@webdevelopmentserviceusa.com</span></a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -147,7 +145,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    <a target="_blank" href="#">Monday–Friday, 9:00 AM–5:00 PM</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -155,13 +153,13 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
+                                    <a href="tel:Update your business phone number">Update your business phone number</a>
                                 </div>
                             </li>
                         </ul>
                         <div class="header-button mt-4">
                             <div class="btn-wrapper">
-                                <a class="gt-btn style3 gt-btn-icon-3" href="#">Get a quote</a>
+                                <a class="gt-btn style3 gt-btn-icon-3" href="#">Request a Quote</a>
                             </div>
                         </div>
                         <div class="social-icon d-flex align-items-center">
@@ -320,7 +318,7 @@
                     <div class="footer-modern-wrapper">
                         <div class="footer-modern-top">
                             <div class="footer-modern-brand ">
-                                <img src="assets/images/logo/footerLogo2_1.png" alt="Befox logo">
+                                <img src="assets/images/logo/footerLogo2_1.png" alt="Web Development Service USA logo">
                             </div>
 
                             <div class="footer-modern-cta">
@@ -364,7 +362,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                                <div class="title">Let's discuss your project today in detail.</div>
+                                <div class="title">Let’s discuss your website or software project today.</div>
                             </div>
 
                             <div class="footer-modern-contact-wrap gt-hover-btn-wrapper">
@@ -383,9 +381,8 @@
 
                         <div class="footer-modern-grid">
                             <div class="footer-modern-col">
-                                <div class="title">About Company</div>
-                                <p>Our AI agency helps businesses unlock new opportunities in transforming data
-                                    intelligent solutions. We design strategies efficiency, an automate workflows.
+                                <div class="title">About Web Development Service USA</div>
+                                <p>We build responsive, user-friendly websites, e-commerce stores, and custom web applications that help businesses grow online. Our team also supports SEO and ongoing website maintenance.
                                 </p>
                             </div>
                             <div class="footer-modern-col">
@@ -401,26 +398,26 @@
                             <div class="footer-modern-col">
                                 <div class="title">Services</div>
                                 <ul>
-                                    <li><a href="service-details.html">Brand Identity</a></li>
-                                    <li><a href="service-details.html">Digital Printing</a></li>
-                                    <li><a href="service-details.html">Logo Design</a></li>
-                                    <li><a href="service-details.html">Product Design</a></li>
-                                    <li><a href="service-details.html">Graphic Design</a></li>
+                                    <li><a href="service-details.html">Website Design & Development</a></li>
+                                    <li><a href="service-details.html">E-commerce Development</a></li>
+                                    <li><a href="service-details.html">Custom Web Applications</a></li>
+                                    <li><a href="service-details.html">SEO & Website Optimization</a></li>
+                                    <li><a href="service-details.html">Website Maintenance</a></li>
                                 </ul>
                             </div>
                             <div class="footer-modern-col">
                                 <div class="title">Contact Us</div>
                                 <ul>
-                                    <li>815, King Street Road, Mahattan, New York - 89654</li>
-                                    <li><a href="tel:+02574328301">+02 574 - 328 - 301</a></li>
-                                    <li><a href="mailto:info@buildyexample.com">info@buildyexample.com</a></li>
-                                    <li><a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></li>
+                                    <li>Serving businesses across the United States</li>
+                                    <li><a href="tel:+02574328301">Update your business phone number</a></li>
+                                    <li><a href="mailto:hello@webdevelopmentserviceusa.com">hello@webdevelopmentserviceusa.com</a></li>
+                                    <li><a href="mailto:hello@webdevelopmentserviceusa.com">hello@webdevelopmentserviceusa.com</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="footer-modern-copy">
-                            <p>&copy; 2025 <a href="#">Befox</a> Themes. All Rights Reserved</p>
+                            <p>&copy; {{ date('Y') }} <a href="#">Web Development Service USA</a>. All Rights Reserved</p>
                         </div>
                     </div>
                 </footer>

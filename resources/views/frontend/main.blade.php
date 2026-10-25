@@ -25,7 +25,7 @@
 
                                 <text>
                                     <textPath class="cir36" href="#circlePath">
-                                        AWARD WINNING AGENCY - SINCE - 2010 - AWARD WINNING AGENCY -
+                                        WEB DEVELOPMENT & DIGITAL SOLUTIONS - BUILT FOR GROWTH -
                                     </textPath>
                                 </text>
                             </svg>
@@ -79,9 +79,9 @@
                                 <h1 class="title">Services <span>USA</span></h1>
 
                                 <p>
-                                    We help businesses harness the power of AI to automate workflows, unlock insights,
-                                    and scale smarter. From strategy to deployment, our solutions deliver real-world
-                                    impact not just promises, ensuring sustainable growth
+                                    We build modern, responsive websites and custom web applications that help businesses grow online.
+                                    From business websites and e-commerce stores to SEO and ongoing support, we turn your
+                                    goals into practical digital solutions.
                                 </p>
                             </div>
 
@@ -89,24 +89,24 @@
                                 <div class="counter-item">
                                     <span>99</span> <span>%</span>
                                     <p>
-                                        Average clients satisfied
-                                        and repeating
+                                        Focused on quality, performance
+                                        and user experience
                                     </p>
                                 </div>
 
                                 <div class="counter-item">
                                     <span>116</span> <span>+</span>
                                     <p>
-                                        Trusted by clients in 24
-                                        countries
+                                        Solutions tailored to your
+                                        business goals
                                     </p>
                                 </div>
 
                                 <div class="counter-item">
                                     <span>19</span> <span>+</span>
                                     <p>
-                                        12+ years of delivering
-                                        excellence
+                                        Web development, e-commerce
+                                        and SEO Services
                                     </p>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                     <div class="brand-wrapper fix">
                         <div class="container">
                             <div class="border-title mb-60 ct-char-animation">
-                                (Loved by teams around the world)
+                                (Digital solutions for ambitious businesses)
                                 <div class="border-wrap fix">
                                     <div class="line-shape-1"></div>
                                     <div class="line-shape-2"></div>
@@ -896,17 +896,13 @@
                             <div class="section-top-content mb-120 style-two">
                                 <div class="sub-title">About Us</div>
                                 <h2 class="title">
-                                    Driving business growth evolution with intelligent, smart AI solutions
-                                    for efficiency, scalability,
+                                    Building better digital experiences for business growth
                                 </h2>
                                 <p>
-                                    Our intelligent, smart AI solutions are designed to optimize every aspect of your
-                                    business processes, streamline in actionable insights that drive smarter
-                                    decision-making. We partner closely with organizations to understand their unique
-                                    challenges, then implement scalable AI strategies tailored to their goals. from
-                                    automating tasks in repetitive tasks to enhancing predictive analytics, our
-                                    solutions deliver measurable results, improved efficiency, and long-term by
-                                    integrating cutting-edge AI technologies
+                                    We create reliable digital experiences tailored to each business. Our team focuses on clean design,
+                                    responsive development, useful features, and search-friendly structure. Whether you need
+                                    a new company website, an online store, or a custom web application, we help you build
+                                    a strong online presence with practical technology and ongoing support.
                                 </p>
                             </div>
 
@@ -1012,13 +1008,13 @@
 
                                             <div class="card-bottom-content">
                                                 <div class=" title">
-                                                    <a href="#">Workflow Automation</a>
+                                                    <a href="#">Business Website Development</a>
                                                 </div>
 
                                                 <p class="text">
-                                                    Streamline repetitive tasks and processes
-                                                    using AI-powered automation, freeing up
-                                                    your team to focus
+                                                    Create a professional, responsive website
+                                                    that explains your Services and helps
+                                                    turn visitors into customers.
                                                 </p>
 
                                                 <ul class="list">
@@ -1036,7 +1032,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Artificial
+                                                        Responsive
                                                     </li>
 
                                                     <li>
@@ -1053,7 +1049,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Local Authority
+                                                        SEO Ready
                                                     </li>
 
                                                     <li>
@@ -1070,7 +1066,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Business Survey
+                                                        User Focused
                                                     </li>
 
                                                     <li>
@@ -1087,7 +1083,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Identity
+                                                        Brand Aligned
                                                     </li>
                                                     <li>
                                                         <span>
@@ -1103,7 +1099,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Data Connection
+                                                        Easy to Manage
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1212,13 +1208,13 @@
 
                                             <div class="card-bottom-content">
                                                 <div class=" title">
-                                                    <a href="#">Data-Driven Insights</a>
+                                                    <a href="#">E-commerce Development</a>
                                                 </div>
 
                                                 <p class="text">
-                                                    Streamline repetitive tasks and processes
-                                                    using AI-powered automation, freeing up
-                                                    your team to focus
+                                                    Create a professional, responsive website
+                                                    that explains your Services and helps
+                                                    turn visitors into customers.
                                                 </p>
 
                                                 <ul class="list">
@@ -1236,7 +1232,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Artificial
+                                                        Responsive
                                                     </li>
 
                                                     <li>
@@ -1253,7 +1249,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Local Authority
+                                                        SEO Ready
                                                     </li>
 
                                                     <li>
@@ -1270,7 +1266,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Business Survey
+                                                        User Focused
                                                     </li>
 
                                                     <li>
@@ -1287,7 +1283,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Identity
+                                                        Brand Aligned
                                                     </li>
                                                     <li>
                                                         <span>
@@ -1303,7 +1299,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Data Connection
+                                                        Easy to Manage
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1412,13 +1408,13 @@
 
                                             <div class="card-bottom-content">
                                                 <div class=" title">
-                                                    <a href="#">Scalable AI Solutions</a>
+                                                    <a href="#">Custom Web Applications</a>
                                                 </div>
 
                                                 <p class="text">
-                                                    Streamline repetitive tasks and processes
-                                                    using AI-powered automation, freeing up
-                                                    your team to focus
+                                                    Create a professional, responsive website
+                                                    that explains your Services and helps
+                                                    turn visitors into customers.
                                                 </p>
 
                                                 <ul class="list">
@@ -1436,7 +1432,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Artificial
+                                                        Responsive
                                                     </li>
 
                                                     <li>
@@ -1453,7 +1449,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Local Authority
+                                                        SEO Ready
                                                     </li>
 
                                                     <li>
@@ -1470,7 +1466,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Business Survey
+                                                        User Focused
                                                     </li>
 
                                                     <li>
@@ -1487,7 +1483,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Identity
+                                                        Brand Aligned
                                                     </li>
                                                     <li>
                                                         <span>
@@ -1503,7 +1499,7 @@
                                                             </svg>
                                                         </span>
 
-                                                        Data Connection
+                                                        Easy to Manage
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1522,7 +1518,7 @@
                         style="background-image: url(./assets/images/shape/servicwshapeBg1_1.png);">
                         <div class="container">
                             <div class="section-top-content style-two">
-                                <div class="sub-title">services</div>
+                                <div class="sub-title">Services</div>
                             </div>
 
                             <div class="row gy-4 align-items-center">
@@ -1542,15 +1538,14 @@
                                                         data-bs-toggle="collapse" data-bs-target="#collapseOne1"
                                                         aria-expanded="true" aria-controls="collapseOne1"
                                                         data-img="./assets/images/service/serviceThumb2_1.png">
-                                                        Custom AI Models
+                                                        Custom Website Solutions
                                                     </button>
                                                 </h2>
 
                                                 <div id="collapseOne1" class="accordion-collapse collapse show"
                                                     data-bs-parent="#accordionFlushExample">
                                                     <div class="accordion-body">
-                                                        We help businesses stay connected and leverage the power of
-                                                        intelligent networking.
+                                                        We build tailored websites and web applications to support your business processes.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1561,14 +1556,14 @@
                                                         data-bs-toggle="collapse" data-bs-target="#collapseNew2"
                                                         aria-expanded="false" aria-controls="collapseNew2"
                                                         data-img="./assets/images/service/serviceThumb2_2.png">
-                                                        Networking
+                                                        Website Development
                                                     </button>
                                                 </h2>
 
                                                 <div id="collapseNew2" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionFlushExample">
                                                     <div class="accordion-body">
-                                                        Intelligent networking solutions for modern businesses.
+                                                        Responsive websites designed for modern businesses.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1579,14 +1574,14 @@
                                                         data-bs-toggle="collapse" data-bs-target="#collapseTwo2"
                                                         aria-expanded="false" aria-controls="collapseTwo2"
                                                         data-img="./assets/images/service/serviceThumb2_3.png">
-                                                        Server Security
+                                                        E-commerce Solutions
                                                     </button>
                                                 </h2>
 
                                                 <div id="collapseTwo2" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionFlushExample">
                                                     <div class="accordion-body">
-                                                        Secure infrastructure and advanced server protection.
+                                                        Online stores with practical shopping and checkout experiences.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1597,14 +1592,14 @@
                                                         data-bs-toggle="collapse" data-bs-target="#collapseThree3"
                                                         aria-expanded="false" aria-controls="collapseThree3"
                                                         data-img="./assets/images/service/serviceThumb2_4.png">
-                                                        Predictive Insights
+                                                        SEO & Website Optimization
                                                     </button>
                                                 </h2>
 
                                                 <div id="collapseThree3" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionFlushExample">
                                                     <div class="accordion-body">
-                                                        AI-powered predictive insights for smarter decisions.
+                                                        Improve website structure, speed, and search visibility.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1615,14 +1610,14 @@
                                                         data-bs-toggle="collapse" data-bs-target="#collapseFour4"
                                                         aria-expanded="false" aria-controls="collapseFour4"
                                                         data-img="./assets/images/service/serviceThumb2_5.png">
-                                                        Data Structure
+                                                        Website Maintenance
                                                     </button>
                                                 </h2>
 
                                                 <div id="collapseFour4" class="accordion-collapse collapse"
                                                     data-bs-parent="#accordionFlushExample">
                                                     <div class="accordion-body">
-                                                        Optimized data architecture and scalable structures.
+                                                        Keep your website updated, secure, and running smoothly.
                                                     </div>
                                                 </div>
                                             </div>
@@ -1635,7 +1630,7 @@
                 </div>
                 <!-- service Section End -->
 
-                <!-- Why Choose Us Section Start -->
+                <!-- Why Choose Web Development Service USA Section Start -->
                 <div class="why-choose-us-area why-choose-us-wave fix">
                     <div class="why-choose-us-wrapper image-back-wrapper pb-120">
                         <div class="shape-content image-back-thumb item-2">
@@ -1644,10 +1639,10 @@
 
                         <div class="container">
                             <div class="section-top-content style-two mb-60">
-                                <div class="sub-title mb-30">Why Choose Us</div>
+                                <div class="sub-title mb-30">Why Choose Web Development Service USA</div>
                                 <h2 class="title mb-0">
-                                    Reliable Local Servers — Our AI solutions leverage local servers for faster
-                                    performance
+                                    Business-focused development — We build practical websites around your goals,
+                                    audience, and day-to-day needs.
                                 </h2>
                             </div>
 
@@ -1708,11 +1703,9 @@
                                                     </svg>
                                                 </div>
                                                 <div class="content">
-                                                    <h3>Reliable Local Servers</h3>
+                                                    <h3>Business-Focused Development</h3>
                                                     <p>
-                                                        Our intelligent, smart AI solutions are designed to optimize
-                                                        every
-                                                        aspect of your business processes,
+                                                        Responsive, user-friendly websites designed to support your business goals.
                                                     </p>
                                                 </div>
                                             </div>
@@ -1756,10 +1749,9 @@
                                                     </svg>
                                                 </div>
                                                 <div class="content">
-                                                    <h3>Innovative AI Solutions</h3>
+                                                    <h3>Modern Web Solutions</h3>
                                                     <p>
-                                                        Our intelligent, smart AI solutions are designed to optimize
-                                                        every aspect of your business processes,
+                                                        Thoughtful design, reliable development, and a focus on performance.
                                                     </p>
                                                 </div>
                                             </div>
@@ -1815,10 +1807,9 @@
                                                     </svg>
                                                 </div>
                                                 <div class="content">
-                                                    <h3>Tailored Strategies</h3>
+                                                    <h3>Solutions Built Around You</h3>
                                                     <p>
-                                                        Our intelligent, smart AI solutions are designed to optimize
-                                                        every aspect of your business processes,
+                                                        Thoughtful design, reliable development, and a focus on performance.
                                                     </p>
                                                 </div>
                                             </div>
@@ -1894,10 +1885,9 @@
                                                     </svg>
                                                 </div>
                                                 <div class="content">
-                                                    <h3>Expert Team Members</h3>
+                                                    <h3>Ongoing Website Support</h3>
                                                     <p>
-                                                        Our intelligent, smart AI solutions are designed to optimize
-                                                        every aspect of your business processes,
+                                                        Thoughtful design, reliable development, and a focus on performance.
                                                     </p>
                                                 </div>
                                             </div>
@@ -1908,14 +1898,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- Why Choose Us Section End -->
+                <!-- Why Choose Web Development Service USA Section End -->
 
                 <!-- Testimonials Section Start -->
                 <div class="testimonials-area">
                     <div class="testimonials-wrapper style-two  pt-120 pb-120">
                         <div class="container">
                             <div class="section-top-content style-two">
-                                <div class="sub-title pb-15">services</div>
+                                <div class="sub-title pb-15">Services</div>
                             </div>
                         </div>
 
@@ -1941,14 +1931,12 @@
                                             </span>
 
                                             <p class="testimonial-text">
-                                                The AI models developed by befox are precise, scalable, and
-                                                extremely reliable.
-                                                Their team demonstrates exceptional professionalism and innovation.
+                                                The team delivered a smooth website experience and kept the project focused on our business needs.
                                             </p>
 
                                             <div class="author-info">
-                                                <h4 class="author-name">Sophia Rahman,</h4>
-                                                <span class="author-role">CEO, TechNova</span>
+                                                <h4 class="author-name">Business Client,</h4>
+                                                <span class="author-role">Website Project</span>
                                             </div>
                                         </article>
                                     </div>
@@ -1972,14 +1960,12 @@
                                             </span>
 
                                             <p class="testimonial-text">
-                                                The AI models developed by befox are precise, scalable, and
-                                                extremely reliable.
-                                                Their team demonstrates exceptional professionalism and innovation.
+                                                The team delivered a smooth website experience and kept the project focused on our business needs.
                                             </p>
 
                                             <div class="author-info">
-                                                <h4 class="author-name">Delwar Hossain</h4>
-                                                <span class="author-role">Owner, Dev Excellion</span>
+                                                <h4 class="author-name">Business Owner</h4>
+                                                <span class="author-role">Website Development</span>
                                             </div>
                                         </article>
                                     </div>
@@ -2003,14 +1989,12 @@
                                             </span>
 
                                             <p class="testimonial-text">
-                                                The AI models developed by befox are precise, scalable, and
-                                                extremely reliable.
-                                                Their team demonstrates exceptional professionalism and innovation.
+                                                The team delivered a smooth website experience and kept the project focused on our business needs.
                                             </p>
 
                                             <div class="author-info">
-                                                <h4 class="author-name">Asfaq Rohoman,</h4>
-                                                <span class="author-role">CEO, PreoiT</span>
+                                                <h4 class="author-name">Project Client,</h4>
+                                                <span class="author-role">Custom Web Solution</span>
                                             </div>
                                         </article>
                                     </div>
@@ -2034,14 +2018,12 @@
                                             </span>
 
                                             <p class="testimonial-text">
-                                                The AI models developed by befox are precise, scalable, and
-                                                extremely reliable.
-                                                Their team demonstrates exceptional professionalism and innovation.
+                                                The team delivered a smooth website experience and kept the project focused on our business needs.
                                             </p>
 
                                             <div class="author-info">
-                                                <h4 class="author-name">Sophia Rahman,</h4>
-                                                <span class="author-role">CEO, TechNova</span>
+                                                <h4 class="author-name">Business Client,</h4>
+                                                <span class="author-role">Website Project</span>
                                             </div>
                                         </article>
                                     </div>
@@ -2065,14 +2047,12 @@
                                             </span>
 
                                             <p class="testimonial-text">
-                                                The AI models developed by befox are precise, scalable, and
-                                                extremely reliable.
-                                                Their team demonstrates exceptional professionalism and innovation.
+                                                The team delivered a smooth website experience and kept the project focused on our business needs.
                                             </p>
 
                                             <div class="author-info">
-                                                <h4 class="author-name">kajiul islam,</h4>
-                                                <span class="author-role">CEO, TechNova</span>
+                                                <h4 class="author-name">E-commerce Client,</h4>
+                                                <span class="author-role">Website Project</span>
                                             </div>
                                         </article>
                                     </div>
@@ -2131,17 +2111,16 @@
                     <div class="case-study-wrapper style-two pt-120 pb-120">
                         <div class="container">
                             <div class="section-top-content style-two">
-                                <div class="sub-title pb-15">Case study</div>
+                                <div class="sub-title pb-15">Our Work</div>
                                 <h2 class="title">
-                                    Case studies of impact - delivering
-                                    measurable growth with ai-driven
-                                    strategies today
+                                    Digital projects designed to improve online presence, customer experience,
+                                    and business operations.
                                 </h2>
 
                                 <div class="simple-btn ml-15" data-fade-from="bottom">
                                     <a href="contact.html"
                                         class="gt-hover-btn gt-hover-btn-item gt-btn-circle-2 style-three d-inline-flex align-items-center justify-content-center flex-column ">
-                                        <span class="gt-btn-circle-text-2">view all case study</span>
+                                        <span class="gt-btn-circle-text-2">View All Projects</span>
                                         <i class="gt-btn-circle-dot"></i>
                                     </a>
                                 </div>
@@ -2150,25 +2129,25 @@
 
                         <div class="case-study-cards">
                             <article class="case-study-item">
-                                <img src="./assets/images/case-study/caseStudyThumb1_1.png" alt="Case study">
+                                <img src="./assets/images/case-study/caseStudyThumb1_1.png" alt="Our Work">
                                 <div class="case-study-content">
-                                    <h3>Intelligent Connectivity Platform</h3>
+                                    <h3>Business Website</h3>
                                     <a href="project-details.html"><i class="fa-solid fa-arrow-up-right"></i></a>
                                 </div>
                             </article>
 
                             <article class="case-study-item is-active">
-                                <img src="./assets/images/case-study/caseStudyThumb1_2.png" alt="Case study">
+                                <img src="./assets/images/case-study/caseStudyThumb1_2.png" alt="Our Work">
                                 <div class="case-study-content">
-                                    <h3>AI-Driven Process Automation for Enterprises</h3>
+                                    <h3>E-commerce Website</h3>
                                     <a href="project-details.html"><i class="fa-solid fa-arrow-up-right"></i></a>
                                 </div>
                             </article>
 
                             <article class="case-study-item">
-                                <img src="./assets/images/case-study/caseStudyThumb1_3.png" alt="Case study">
+                                <img src="./assets/images/case-study/caseStudyThumb1_3.png" alt="Our Work">
                                 <div class="case-study-content">
-                                    <h3>Predictive Assistant for Smart Teams</h3>
+                                    <h3>Custom Web Application</h3>
                                     <a href="project-details.html"><i class="fa-solid fa-arrow-up-right"></i></a>
                                 </div>
                             </article>
@@ -2186,9 +2165,9 @@
 
                         <div class="container">
                             <div class="section-top-content style-two">
-                                <div class="sub-title">how it works</div>
+                                <div class="sub-title">How It Works</div>
                                 <h2 class="title">
-                                    Neural networks are a fundamental component of Artificial Intelligence (AI) systems
+                                    Neural networks are a fundamental component of Responsive Intelligence (AI) systems
                                 </h2>
                             </div>
 
@@ -2197,17 +2176,15 @@
                                     <div class="how-it-works-card style-one   dh_fade_anim" data-delay=".2"
                                         data-fade-from="bottom">
                                         <div class="card-content">
-                                            <span class="list-number">step 01</span>
+                                            <span class="list-number">Step 01</span>
 
                                             <div class="card-bottom-content">
                                                 <div class=" title">
-                                                    <a href="#">Discovery & Consultation</a>
+                                                    <a href="#">Discovery & Planning</a>
                                                 </div>
 
                                                 <p class="text">
-                                                    We start by understanding your business goals
-                                                    existing workflows through strategy & sessions
-                                                    AI can create the biggest
+                                                    We learn about your business, audience, goals, and required website features.
                                                 </p>
                                             </div>
                                         </div>
@@ -2218,17 +2195,15 @@
                                     <div class="how-it-works-card style-one   dh_fade_anim" data-delay=".4"
                                         data-fade-from="bottom">
                                         <div class="card-content">
-                                            <span class="list-number">step 02</span>
+                                            <span class="list-number">Step 02</span>
 
                                             <div class="card-bottom-content">
                                                 <div class=" title">
-                                                    <a href="#">Discovery & Consultation</a>
+                                                    <a href="#">Discovery & Planning</a>
                                                 </div>
 
                                                 <p class="text">
-                                                    We start by understanding your business goals
-                                                    existing workflows through strategy & sessions
-                                                    AI can create the biggest
+                                                    We learn about your business, audience, goals, and required website features.
                                                 </p>
                                             </div>
                                         </div>
@@ -2239,17 +2214,15 @@
                                     <div class="how-it-works-card style-one   dh_fade_anim" data-delay=".6"
                                         data-fade-from="bottom">
                                         <div class="card-content">
-                                            <span class="list-number">step 03</span>
+                                            <span class="list-number">Step 03</span>
 
                                             <div class="card-bottom-content">
                                                 <div class=" title">
-                                                    <a href="#">Discovery & Consultation</a>
+                                                    <a href="#">Discovery & Planning</a>
                                                 </div>
 
                                                 <p class="text">
-                                                    We start by understanding your business goals
-                                                    existing workflows through strategy & sessions
-                                                    AI can create the biggest
+                                                    We learn about your business, audience, goals, and required website features.
                                                 </p>
                                             </div>
                                         </div>
@@ -2276,16 +2249,15 @@
                     <div class="blog-wrapper style-two pt-120 pb-120">
                         <div class="container">
                             <div class="section-top-content style-two">
-                                <div class="sub-title">News & Blogs!</div>
+                                <div class="sub-title">News & Insights</div>
                                 <h2 class="title">
-                                    Our latest blog: AI solution – smart automation made simple for latest and modern
-                                    businesses
+                                    Explore website development, e-commerce, SEO, and digital growth tips for businesses.
                                 </h2>
 
                                 <div class="simple-btn ml-15" data-fade-from="bottom">
                                     <a href="contact.html"
                                         class="gt-hover-btn gt-hover-btn-item gt-btn-circle-2 style-three d-inline-flex align-items-center justify-content-center flex-column ">
-                                        <span class="gt-btn-circle-text-2">view all blog posts</span>
+                                        <span class="gt-btn-circle-text-2">View All Blog Posts</span>
                                         <i class="gt-btn-circle-dot"></i>
                                     </a>
                                 </div>
@@ -2301,19 +2273,19 @@
 
                                         <div class="blog-card-body">
                                             <div class="blog-card-meta">
-                                                <span class="tag">Branding</span>
+                                                <span class="tag">Web Development</span>
                                                 <span class="tag soft">5 min read</span>
                                             </div>
 
                                             <a href="blog.html" class="blog-card-title">
-                                                Ai beyond buzzwords: turning hype into real business value
+                                                What Makes a Business Website Effective?
                                             </a>
 
                                             <div class="blog-card-author">
                                                 <img src="./assets/images/shape/blogVactor1_1.png" alt="">
                                                 <div>
-                                                    <strong>Yevhen Subota</strong>
-                                                    <span>Team leader of SEO</span>
+                                                    <strong>WDS USA Team</strong>
+                                                    <span>Web Development</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2329,20 +2301,19 @@
 
                                         <div class="blog-card-body">
                                             <div class="blog-card-meta">
-                                                <span class="tag">Branding</span>
+                                                <span class="tag">Web Development</span>
                                                 <span class="tag soft">5 min read</span>
                                             </div>
 
                                             <a href="blog.html" class="blog-card-title">
-                                                AI beyond buzzwords: turning hype into real business value & sustainable
-                                                growth and innovation
+                                                How a Fast, Mobile-Friendly Website Supports Business Growth
                                             </a>
 
                                             <div class="blog-card-author">
                                                 <img src="./assets/images/shape/blogVactor1_1.png" alt="">
                                                 <div>
-                                                    <strong>Yevhen Subota</strong>
-                                                    <span>Team leader of SEO</span>
+                                                    <strong>WDS USA Team</strong>
+                                                    <span>Web Development</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -2358,19 +2329,19 @@
 
                                         <div class="blog-card-body">
                                             <div class="blog-card-meta">
-                                                <span class="tag">Branding</span>
+                                                <span class="tag">Web Development</span>
                                                 <span class="tag soft">5 min read</span>
                                             </div>
 
                                             <a href="blog.html" class="blog-card-title">
-                                                Ai and creativity: can machines think like designers?
+                                                E-commerce Website Features Every Business Should Consider?
                                             </a>
 
                                             <div class="blog-card-author">
                                                 <img src="./assets/images/shape/blogVactor1_1.png" alt="">
                                                 <div>
-                                                    <strong>Yevhen Subota</strong>
-                                                    <span>Team leader of SEO</span>
+                                                    <strong>WDS USA Team</strong>
+                                                    <span>Web Development</span>
                                                 </div>
                                             </div>
                                         </div>
