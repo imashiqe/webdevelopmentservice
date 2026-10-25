@@ -84,7 +84,7 @@ Description: Befox - Digital Agency & Creative Portfolio Html Template  <
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #FF531F;
+  --theme: #1e88e5;
   --theme-2: #E85C30;
   --theme-3: #FF9D00;
   --theme-4: #C4F112;
@@ -24476,7 +24476,7 @@ img {
   }
 }
 .details-info .btn-wrap .btn:hover svg path {
-  fill: #FF531F;
+  fill: #1e88e5;
 }
 
 .group-thumb {
